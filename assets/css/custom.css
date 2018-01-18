@@ -84,6 +84,17 @@
   .subline {
     display: none;
   }
+  .ui.white.label {
+    background-color: transparent;
+  }
+  .ui.masthead.container {
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .ui.menu:not(.vertical) .item > .button {
+    font-size: .8em;
+  }
 }
 
 
@@ -327,7 +338,7 @@ p.header {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 90%; /* Could be more or less, depending on screen size */
     max-width: 400px;
 }
 
